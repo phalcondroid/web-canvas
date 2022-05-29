@@ -14,7 +14,7 @@ class WidgetItem extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      width: MediaQuery.of(context).size.width * 0.1,
+      width:  MediaQuery.of(context).size.width * 0.1,
       height: MediaQuery.of(context).size.width * 0.1,
       margin: const EdgeInsets.only(right: 10.0),
       decoration: BoxDecoration(
